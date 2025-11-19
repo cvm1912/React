@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.parent{
+  background-color: pink;
+  border: 1px solid black;
+  width: 300px;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 20px;
+}
+.main{
+   display: flex;
+}
+
+.cart{
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+}
+
+.cart button{
+  background-color: black;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.cart img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
