@@ -1,7 +1,6 @@
 import React from 'react'
 
 const cart = (props) => {
-  console.log(props.user)
   return (
     <>
       <div className='parent'>
